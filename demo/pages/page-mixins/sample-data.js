@@ -1,7 +1,7 @@
 const sampleEventArray = [
   {
     id: 1,
-    summary: 'Test event',
+    summary: 'asdasdasdk',
     description: 'Some extra info goes here',
     location: 'Office of the Divine Randomness, 1232 Main St., Denver, CO',
     start: {
@@ -13,6 +13,8 @@ const sampleEventArray = [
       timeZone: 'Europe/Zurich'
     },
     color: 'positive',
+    event_type: 'upcoming',
+    isAgendaTask: true,
     attendees: [
       {
         id: 5,

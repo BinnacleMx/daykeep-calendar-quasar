@@ -146,9 +146,11 @@
     DaykeepCalendarAgenda
   } from '../../component/quasar'
   import {
-    MoveDates,
-    sampleEventArray
+    MoveDates
   } from '@daykeep/calendar-core/demo'
+  import {
+    sampleEventArray
+  } from './page-mixins/sample-data'
   export default {
     name: 'PageIndex',
     components: {
